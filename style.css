@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  text-align: right;
+}
+
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
+    
+}
+
+p{
+font-size: 20px;
+color: white;
+margin-top: 25px;
+text-align: center;
+
+}
+
+h1{
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    margin-top: 165px;
+}
+input{
+    width: 342px;
+    height: 74px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 26px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 342px;
+    height: 74px;
+    border-radius: 30px;
+    border:none;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+a{
+ display: block;
+   font-size: 14px;
+   text-align: right;
+   margin-top: 110px;
+  
+
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA  51%, #9D50BB  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   margin-left: auto;
+    margin-right: auto; 
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ input.sss:focus {
+    background-color: #6E48AA;
+    text-transform: uppercase;
+   transition: 0.5s;
+  }
+ 
+  input.sss[type=email] {
+    width: 300px;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+  
+  input.sss[type=email]:focus {
+    width: 250px;
+  }
+  input.sss[type=password] {
+    width: 300px;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+  
+  input.sss[type=password]:focus {
+    width: 250px;
+  }
+  input.sss[type=text] {
+    width: 300px;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+  
+  input.sss[type=text]:focus {
+    width: 250px;
+  }
+
+ 
+  a:link, a:visited {
+    background-color:rgb(255, 255, 255);
+    color: rgb(207, 29, 29);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 13px;
+
+                     }
+  
+  a:hover, a:active {
+    background-color:black;
+    cursor: pointer;
+    
+  }
